@@ -1,6 +1,5 @@
 # LTC4
 
-## Infos und Sonstiges
-
-## Allerlei
+### Infos und Sonstiges
+Seminar hat noch nicht begonnen!
 
