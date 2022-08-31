@@ -1,0 +1,126 @@
+---
+title: "StartUp WS2223"
+subtitle: "Install: R + RStudio + Markdown"
+author: "Seifriz"
+date: '`r format(Sys.time(), "%d. %B %Y")`'
+format:
+  html: 
+    toc: true
+editor: visual
+---
+
+# Install software
+
+## R
+
+R is a freely available language and environment for statistical computing and graphics.
+
+Download link: <https://cran.r-project.org/>.
+
+Download and install...
+
+![](Material/R%20Cran%20Homepage3.png)
+
+## RStudio Desktop
+
+RStudio-Desktop is a GUI (Graphical User Interface) for R.
+
+Download link: <https://www.rstudio.com/products/rstudio/>.
+
+Download and install...
+
+![](Material/RStudio%20Homepage.png)
+
+## Rtools (optional)
+
+A set of programs that is required on Windows to build R packages from source.
+
+Download link: <https://cran.r-project.org/>.
+
+Download and install...
+
+Put the location of the Rtools make utilities (bash, make, etc) on the `PATH`.
+
+# Add packages
+
+## Must-have
+
+### Tidyverse
+
+Collection of R packages designed for data science.
+
+Package: `tidyverse`
+
+```{r, eval = FALSE}
+install.packages('tidyverse')
+```
+
+## R Markdown
+
+### Pandoc
+
+A library for converting from one markup format to another.
+
+Allready bundled with RStudio Desktop!
+
+### RMarkdown
+
+Variant of Markdown that has embedded R code chunks (dynamic report generation with R).
+
+Package `rmarkdown`
+
+```{r, eval = FALSE}
+install.packages('rmarkdown')
+```
+
+### Tinytex
+
+Lightweight LaTex distribution -\> PDF
+
+Package `tinytex`
+
+```{r, eval = FALSE}
+# Preinstallation
+install.packages('tinytex')
+# Install the package
+tinytex::install_tinytex()
+```
+
+### Errors
+
+#### Missing files
+
+Example messages:
+
+`! LaTeX Error: File "ocgbase.sty" not found.`
+
+`!pdfTeX error: pdflatex (file 8r.enc): cannot open encoding file for reading`
+
+`!pdfTeX error: /usr/local/bin/pdflatex (file tcrm0700): Font tcrm0700 at 600 not found`
+
+This function takes the path of the LaTeX-log file as the input, tries to figure out the missing packages automatically, and installs them if they are found on CTAN.
+
+The LaTeX log file typically has the same base name as your input document, and has an extension .log.
+
+```{r, eval=FALSE}
+# if the log file is filename.log
+tinytex::parse_install ("filename.log")
+```
+
+If you cannot find this log file, you can pass the error message to the text argument of this function. Both ways should work
+
+```{r, eval=FALSE}
+# or use the `text` argument
+tinytex::parse_install(text = "! LaTeX Error: File `ocgbase.sty' not found.")
+# it will install the "ocgx2" package
+```
+
+#### Missing package devtools
+
+Devtools make package development easier by providing R functions that simplify common tasks.
+
+Package `devtools`
+
+```{r, eval = FALSE}
+install.packages('devtools')
+```
