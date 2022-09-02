@@ -28,7 +28,7 @@ https://methodenlehre.github.io/einfuehrung-in-R/index.html
 **Stack Overflow:** https://stackoverflow.com
 
 - DAS Forum für Fragen zum Scripten, Programmieren, ...
-- Frage zu R einfach auf englisch googeln!! 
+- Nutzung: Frage zu R einfach auf englisch googeln!! 
 - Erfordert etwas "Routine" die guten von den schlechten Antworten zu unterscheiden! :wink:
 
 
