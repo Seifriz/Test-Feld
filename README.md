@@ -9,7 +9,7 @@
 ### 3. Zusätzliche Packages installieren
 **YouTube Kanal: Statistik am PC:** https://www.youtube.com/watch?v=YD8OLpvkHD8
 
-> Bitte folgende Packages installieren: tidyverse und ggplot2
+> Bitte R + RStudio und folgende Packages bis zur ersten Stunde installieren: "tidyverse" und "ggplot2"
 
 
 ### 4. Einführung in R/RStudio
@@ -27,10 +27,8 @@ https://methodenlehre.github.io/einfuehrung-in-R/index.html
 ### Forum für Fragen zu R
 **Stack Overflow:** https://stackoverflow.com
 
-DAS Forum für Fragen zum Scripten, Programmieren, ...
-
-Frage zu R einfach auf englisch googeln!! 
-
-Erfordert etwas "Routine" die guten von den schlechten Antworten zu unterscheiden! :wink:
+- DAS Forum für Fragen zum Scripten, Programmieren, ...
+- Frage zu R einfach auf englisch googeln!! 
+- Erfordert etwas "Routine" die guten von den schlechten Antworten zu unterscheiden! :wink:
 
 
