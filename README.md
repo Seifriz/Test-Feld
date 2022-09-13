@@ -1,7 +1,7 @@
 LTC4
 ================
 
-## “Gewünschte” Erwartungen an die R/RStudio Vorkenntnisse
+## Erwartungen an die R/RStudio Vorkenntnisse
 
 ### 1. Installation von R und RStudio
 
